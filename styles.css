@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 30px;
+}
+
+.drawing {
+  box-sizing: content-box;
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  height: 320px;
+  border: 1px solid black;
+}
+
+
+.pixel {
+  width: 20px;
+  height: 20px;
+  background: white;
+  /* border: 1px solid black; */
+  caret-color: transparent;
+}
+
+.pixel:hover {
+}
